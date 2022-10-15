@@ -1,4 +1,4 @@
-/*
+'''
 amphx_basic_transformers
 Super basic python transformer scripts using HuggingFace
 
@@ -16,4 +16,4 @@ This method is surprisingly effective in many cases, particularly when used with
 like BART and Roberta. See this blog post for a more expansive introduction to this and other zero shot methods, 
 and see the code snippets below for examples of using this model for zero-shot classification both with 
 Hugging Face's built-in pipeline and with native Transformers/PyTorch code.
-*/
+'''
