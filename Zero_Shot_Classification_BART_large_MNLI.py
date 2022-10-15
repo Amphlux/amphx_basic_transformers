@@ -1,3 +1,9 @@
+"""
+Zero-Shot Text Classification
+https://huggingface.co/facebook/bart-large-mnli
+NLI-based Zero Shot Text Classification
+"""
+
 #load the zero-shot-classification pipeline
 from transformers import pipeline
 classifier = pipeline("zero-shot-classification",
